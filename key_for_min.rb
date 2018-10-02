@@ -9,6 +9,7 @@ def key_for_min_value(name_hash)
     comp = val
     if smallest_key == 0
       smallest_key = key
+      smallest_value = val
     end 
     if comp < smallest_val
       smallest_val = comp
